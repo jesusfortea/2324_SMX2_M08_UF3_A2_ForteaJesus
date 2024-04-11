@@ -1,12 +1,89 @@
 #header{
     width: 100%;
+    height: 100%;
 }
 
 #header-image{
     width: 100%;
     height: 100%;
+    position: relative;
 }
 
 #header-text{
+    font-size: 230%;
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
+.style1 {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#header-first-text{
+    text-align: center;
+    font-size: 170%;
+}
+
+#header-second-text{
+    text-align: center;
+    font-size: 110%;
+}
+
+#second-section{
+    width: 100%;
+}
+
+#second-section-text{
+    width: 100%;
+    text-align: center;
+}
+
+#second-section-images{
+    width: 100%;
+}
+
+#second-section-images-first-section{
+    width: 100%;
+}
+#second-section-images-second-section{
+    width: 100%;
+}
+
+#images1{
+    width: 20%;
+    height: 20%;
+    padding-left: 9.8%;
+    padding-top: 5%;
+}
+#images2{
+    width: 20%;
+    height: 20%;
+    padding-left: 9.8%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#third-section{
+    width: 100%;
+}
+
+#third-section-header{
+    width: 100%;
+    color: white;
+    background-color:cadetblue;
+}
+
+#third-section-header-first{
+    padding-top: 1%;
+    text-align: center;
+    font-size: 190%;
+}
+#third-section-header-second{
+    padding-bottom: 1%;
+    text-align: center;
+    font-size: 150%;
 }
