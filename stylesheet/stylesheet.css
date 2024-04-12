@@ -49,9 +49,6 @@
 #second-section-images-first-section{
     width: 100%;
 }
-#second-section-images-second-section{
-    width: 100%;
-}
 
 #images1{
     width: 20%;
@@ -74,7 +71,7 @@
 #third-section-header{
     width: 100%;
     color: white;
-    background-color:cadetblue;
+    background-color:rgb(84, 187, 191);
 }
 
 #third-section-header-first{
@@ -131,6 +128,13 @@
 
 #footer-section-2{
     width: 25%;
+    padding-left: 5%;
+}
+
+#footer-section-global-2{
+    width: 100%;
+    display: flex;
+    padding-left: 5%;
 }
 
 #footer-section-text{
@@ -141,4 +145,161 @@
     background-color: black;
     color: aliceblue;
     text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    #header{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #header-image{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    #header-text{
+        font-size: 100%;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .style1 {
+        font-family: "Nanum Gothic", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    #header-first-text{
+        text-align: center;
+        font-size: 200%;
+    }
+    
+    #header-second-text{
+        text-align: center;
+        font-size: 120%;
+    }
+    
+    #second-section{
+        width: 100%;
+    }
+    
+    #second-section-text{
+        width: 100%;
+        text-align: center;
+    }
+    
+    #second-section-images{
+        width: 100%;
+    }
+    
+    #second-section-images-first-section{
+        width: 100%;
+        padding-bottom: 5%;
+    }
+    #second-section-images-second-section{
+        width: 100%;
+    }
+    
+    #images1{
+        width: 30%;
+        height: 20%;
+        padding-left: 12%;
+        padding-top: 5%;
+    }
+    
+    #images2{
+        width: 30%;
+        height: 20%;
+        padding-left: 12%;
+        padding-top: 5%;
+        padding-bottom: 0%;
+    }
+
+    #third-section{
+        width: 100%;
+    }
+    
+    #third-section-header{
+        width: 100%;
+        color: white;
+        background-color:rgb(84, 187, 191);
+    }
+    
+    #third-section-header-first{
+        padding-top: 3%;
+        text-align: center;
+        font-size: 150%;
+    }
+    #third-section-header-second{
+        padding-bottom: 3%;
+        text-align: center;
+        font-size: 100%;
+    }
+    
+    #four-section{
+        width: 100%;
+        display: block;
+    }
+    
+    #four-section-left-text{
+        width: 100%;
+        padding-left: 0%;
+    }
+    
+    #four-section-right-text{
+        width: 100%;
+        padding-right: 0%;
+    }
+    
+    #four-section-left-text-header{
+        width: 100%;
+        font-size: 200%;
+    }
+    
+    #four-section-left-text-paragraph{
+        width: 100%;
+        font-size: 99%;
+        padding-bottom: 2%;
+    }
+    
+    #footer{
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    
+    #footer-section{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+    
+    #footer-section-1{
+        padding-top: 1%;
+        width: 100%;
+        padding-left: 1%;
+        text-align: center;
+    }
+    
+    #footer-section-2{
+        width: 40%;
+    }
+    
+    #footer-section-text{
+        color: aliceblue;
+    }
+    
+    #final-text{
+        background-color: black;
+        color: aliceblue;
+        text-align: center;
+    }
+
+    #gps{
+        width: 100%;
+    }
+
 }
